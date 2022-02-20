@@ -19,10 +19,16 @@ const Profile = () => {
   return (
     // Using react-natives built in components.
     <View style={styles.container}>
-      <Text>Welcome</Text>
-      <Text>Dear: {auth.currentUser?.email}</Text>
-      <TouchableOpacity onPress={handleSignOut} style={styles.button}>
-        <Text style={styles.buttonText}>Sign out</Text>
+     <View>
+        <Image
+          source={require("../components/profilImage.png")}
+          style={styles.image}
+        />
+      </View>
+      <Text style={styles.text}>Hello</Text>
+      <Text style={styles.text}>{auth.currentUser?.email}</Text>
+      <TouchableOpacity onPress={handleSignOut} style={styles.loginButton}>
+        <Text style={styles.loginText}>Sign out</Text>
       </TouchableOpacity>
     </View>
   );
@@ -36,17 +42,27 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
-  button: {
-    backgroundColor: theme.colors.primary,
-    width: "60%",
-    padding: 15,
-    borderRadius: 10,
-    alignItems: "center",
-    marginTop: 40,
+  text:{
+    fontSize:15,
   },
-  buttonText: {
-    color: theme.colors.lightText,
-    fontWeight: "700",
-    fontSize: 16,
+  loginButton: {
+    width: "80%",
+    backgroundColor: "#EC7063",
+    borderRadius: 25,
+    height: 50,
+    alignItems: "center",
+    justifyContent: "center",
+    marginTop: 40,
+    marginBottom: 10,
+  },
+  loginText: {
+    color: "white",
+  },
+  image: {
+    width: 120,
+    height: 120,
+    marginBottom: 10,
+    marginLeft: "auto",
+    marginRight: "auto",
   },
 });
