@@ -1,6 +1,8 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7065314&assignment_repo_type=AssignmentRepo)
-# 3. Week - React Native App
+loginPage             |  registerPage             |  forgotPasswordPage             | 
+:-------------------------:|:-------------------------:|:-------------------------:
+![loginPage (2)](https://user-images.githubusercontent.com/45533057/154839079-4d6ceb5a-9cf5-473f-bca3-634617353f1a.jpg) | ![registerPage](https://user-images.githubusercontent.com/45533057/154839093-ee0d5fb3-cb0b-4755-bc46-19131a1346c4.jpg)  |  ![forgotPasswordPage (1)](https://user-images.githubusercontent.com/45533057/154839191-e0c400c6-3435-4b18-8349-1a36fc728706.jpg) 
+users             |  posts             |  profile             | 
+:-------------------------:|:-------------------------:|:-------------------------:
+![users](https://user-images.githubusercontent.com/45533057/154839116-c536d898-8fc4-4b00-a08a-a72c455da62d.jpg) |  ![posts](https://user-images.githubusercontent.com/45533057/154839122-062f14af-0aef-448b-955d-6e68a4d2c376.jpg)  |  ![profile (1)](https://user-images.githubusercontent.com/45533057/154839200-c540f4f5-92d7-44a3-b747-753d34ba76c1.jpg) 
 
-- Login ve Menu kısımlarının bulanacağı React Native App oluşturulacak
-- JSONPlaceholder API ve axios kullanarak postlar listelenecek
-- Son tarih: 20.02.2022 14:00
+
