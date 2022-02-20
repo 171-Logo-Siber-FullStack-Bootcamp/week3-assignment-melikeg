@@ -1,4 +1,29 @@
-loginPage             |  registerPage             |  forgotPasswordPage             | 
+
+- Projeyi expo ile çalışırmak
+`npm install --global expo-cli`
+
+- Proje oluşturmak
+`expo init my-project`
+
+- Dosya dizinine gidip expo start ile başlatılır
+`cd my-project` `expo start`
+
+### Gerekli olan modüller
+
+- `expo install expo-linear-gradient `
+- `npm install @react-navigation/native`
+- `npm install @react-navigation/native-stack`
+- `npm install @react-navigation/bottom-tabs`
+- `npm i @react-navigation/drawer `
+- `npm i react-native-safe-area-context`
+- `npm i react-native-screens`
+- `npm i react-native-vector-icons`
+- `npm i axios`
+- `npm i firebase`
+
+
+
+loginPage             |  registerPage             |  forgotPasswordPage         | 
 :-------------------------:|:-------------------------:|:-------------------------:
 ![loginPage (2)](https://user-images.githubusercontent.com/45533057/154839079-4d6ceb5a-9cf5-473f-bca3-634617353f1a.jpg) | ![registerPage](https://user-images.githubusercontent.com/45533057/154839093-ee0d5fb3-cb0b-4755-bc46-19131a1346c4.jpg)  |  ![forgotPasswordPage (1)](https://user-images.githubusercontent.com/45533057/154839191-e0c400c6-3435-4b18-8349-1a36fc728706.jpg) 
 users             |  posts             |  profile             | 
