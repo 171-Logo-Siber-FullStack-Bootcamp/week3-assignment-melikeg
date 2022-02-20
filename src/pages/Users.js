@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-// Importing components from react-native library.
 import { View, Text, StyleSheet, FlatList } from "react-native";
 import api from "../services/api";
 import { styles } from "../style/styles";
+//Gerekli modüller import edilir
 
 const Users = () => {
   const [datas, setDatas] = useState(false);
@@ -23,7 +23,7 @@ const Users = () => {
   }, []);
 
   return (
-    // Using react-natives built in components.
+    
     <View style={styles.dataBackground}>
       <View style={styles.headerContainer}>
         <Text style={styles.header}>NAMES OF USERS</Text>
