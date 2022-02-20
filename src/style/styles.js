@@ -1,0 +1,113 @@
+import { StyleSheet } from "react-native";
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  background: {
+    backgroundColor: "#7886d7",
+    position: "absolute",
+    left: 0,
+    right: 0,
+    top: 0,
+    height: "100%",
+  },
+  caption: {
+    color: "white",
+    marginBottom: 30,
+    fontWeight: "bold",
+  },
+  textInputContainer: {
+    width: "80%",
+    backgroundColor: "#ffffff",
+    borderRadius: 25,
+    height: 50,
+    marginBottom: 20,
+    justifyContent: "center",
+    padding: 20,
+  },
+  inputText: {
+    height: 50,
+    color: "#787878",
+  },
+  forgotText: {
+    color: "white",
+    fontSize: 11,
+  },
+  loginButton: {
+    width: "80%",
+    backgroundColor: "#6a75cf",
+    borderRadius: 25,
+    height: 50,
+    alignItems: "center",
+    justifyContent: "center",
+    marginTop: 40,
+    marginBottom: 10,
+  },
+  loginText: {
+    color: "white",
+  },
+  image: {
+    width: 120,
+    height: 120,
+    marginBottom: 10,
+    marginLeft: "auto",
+    marginRight: "auto",
+  },
+  remindPassword: {
+    color: "white",
+    fontSize: 12,
+  },
+  remindPasswordButton: {
+    width: "80%",
+    backgroundColor: "#6a75cf",
+    borderRadius: 25,
+    height: 50,
+    alignItems: "center",
+    justifyContent: "center",
+    marginTop: 5,
+    marginBottom: 10,
+  },
+  dataBackground: {
+    flex: 1,
+    paddingHorizontal: 10,
+    backgroundColor: "#eef0fc",
+  },
+  dataItemUsers: {
+    flex: 1,
+    borderRadius: 10,
+    borderColor: "white",
+    borderWidth: 3,
+    marginHorizontal: 10,
+    marginTop: 20,
+    padding: 15,
+    backgroundColor: "#58D68D",
+    color: "#fff",
+    fontSize: 15,
+    textTransform: "capitalize",
+  },
+  dataItemPosts: {
+    flex: 1,
+    borderRadius: 10,
+    borderColor: "white",
+    borderWidth: 3,
+    marginHorizontal: 10,
+    marginTop: 20,
+    padding: 15,
+    backgroundColor: "#bfaaff",
+    color: "#fff",
+    fontSize: 15,
+    textTransform: "capitalize",
+  },
+  header: {
+    color: "#666",
+    fontSize: 20,
+  },
+  headerContainer: {
+    alignItems: "center",
+    marginTop: 15,
+  },
+});
+export { styles };
