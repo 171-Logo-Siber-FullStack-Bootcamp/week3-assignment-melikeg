@@ -1,8 +1,8 @@
 import React from "react";
 import { useNavigation } from "@react-navigation/core";
-// Importing components from react-native library.
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { auth } from "../firebase/firebaseConfig";
+//Gerekli modüller import edilir
 
 const Profile = () => {
   const navigation = useNavigation();
@@ -17,7 +17,6 @@ const Profile = () => {
   };
 
   return (
-    // Using react-natives built in components.
     <View style={styles.container}>
      <View>
         <Image
